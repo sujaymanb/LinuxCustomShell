@@ -3,6 +3,11 @@
 #include <unistd.h>
 #include <string.h>
 
+#include "internalCmd.h"
+
+//initialize global variable
+char *path;
+
 int main() {
 
 	printf("Welcome to the stupid console\n");
